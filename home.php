@@ -11,7 +11,7 @@ if(isset($_SESSION['user_id'])){
 };
 
 include 'components/wishlist_cart.php';
-//akb27 may 5, 2024
+//akb27 May 5, 2024
 ?>
 
 <!DOCTYPE html>
