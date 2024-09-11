@@ -40,7 +40,7 @@ if(isset($_POST['submit'])){
 
 </head>
 <body>
-<a href="../home.php" id="mainlogo" class="logo">My IT202 Store<span></span></a>
+<a href="../index.php" id="mainlogo" class="logo">My IT202 Store<span></span></a>
 <?php
    if(isset($message)){
       foreach($message as $message){
