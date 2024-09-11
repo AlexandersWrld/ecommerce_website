@@ -2,6 +2,7 @@
 
 include '../components/connect.php';
 
+
 session_start();
 
 if(isset($_POST['submit'])){
@@ -39,7 +40,7 @@ if(isset($_POST['submit'])){
 
 </head>
 <body>
-
+<a href="../index.php" id="mainlogo" class="logo">My IT202 Store<span></span></a>
 <?php
    if(isset($message)){
       foreach($message as $message){

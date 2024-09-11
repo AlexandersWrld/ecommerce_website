@@ -15,7 +15,7 @@
 
    <section class="flex">
 
-      <a href="home.php" class="logo">My IT202 Store<span></span></a>
+      <a href="index.php" class="logo">My IT202 Store<span></span></a>
 
       <nav class="navbar">
          <a href="home.php">home</a>
@@ -55,6 +55,7 @@
             <a href="user_register.php" class="option-btn">register</a>
             <a href="user_login.php" class="option-btn">login</a>
          </div>
+         <a href="../ecommerce_website/admin/admin_login.php" class="option-btn">admin</a>
          <a href="components/user_logout.php" class="delete-btn" onclick="return confirm('logout from the website?');">logout</a> 
          <?php
             }else{
